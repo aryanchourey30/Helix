@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9f5e1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #f0f9eb;
+            width: 40%;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            text-align: center;
+        }
+        .bank-offers {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .payment-option, .more-options {
+            margin: 20px 0;
+        }
+        .option {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            margin: 5px 0;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .option:hover {
+            background: #e6ffe6;
+        }
+        .pay-button {
+            width: 100%;
+            padding: 12px;
+            background: #092c09;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .pay-button:hover {
+            background: #064306;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Payment</h2>
+        <div class="bank-offers">Bank Offers</div>
+        <p>10% instant discount on SBI credit cards</p>
+        <div class="payment-option">
+            <div class="option">Google Pay</div>
+            <div class="option">PhonePe</div>
+            <div class="option">Paytm</div>
+        </div>
+        <h3>Credit & Debit Card</h3>
+        <div class="option">+ Add New Card</div>
+        <div class="more-options">
+            <h3>More Payment Options</h3>
+            <div class="option">Netbanking</div>
+            <div class="option">UPI ID</div>
+        </div>
+        <div class="pay-button">Pay ₹ 1500</div>
+    </div>
+</body>
+</html>
