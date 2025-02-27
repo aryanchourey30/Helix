@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Room Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f2e6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        h2 {
+            color: #004d00;
+        }
+        .hospital-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #004d00;
+            margin-bottom: 10px;
+        }
+        .rating {
+            font-size: 1.5em;
+            color: gold;
+            margin-bottom: 10px;
+        }
+        .image-section {
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .image-section img {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .description {
+            font-size: 1.1em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .amenities, .cost {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .amenities {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 10px;
+            background: #f9f9f9;
+        }
+        .amenities ul, .cost ul {
+            list-style: none;
+            padding: 0;
+        }
+        .amenities li, .cost li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        .cost span {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .book-btn {
+            display: block;
+            width: 100%;
+            background: #008000;
+            color: white;
+            padding: 12px;
+            border: none;
+            margin-top: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+        .book-btn:hover {
+            background: #006400;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hospital-name">Pandey Hospital</div>
+        <h2>Hospital Room Details</h2>
+        <div class="rating">★★★★★</div>
+        <div class="image-section">
+            <img src="hospital-room.jpg" alt="Hospital Room">
+        </div>
+        <p class="description">Experience a comfortable and well-equipped hospital room with modern facilities. Designed to provide the best care, our rooms come with essential amenities to ensure a smooth recovery.</p>
+        <div class="amenities">
+            <h3>Amenities</h3>
+            <ul>
+                <li>🏥 Fully equipped medical facilities</li>
+                <li>🛏️ Comfortable soft mattress for better rest</li>
+                <li>🥗 Nutritious diet meals provided</li>
+                <li>🚻 Hygienic and clean washrooms</li>
+            </ul>
+        </div>
+        <div class="cost">
+            <h3>Cost</h3>
+            <ul>
+                <li><span>₹1500/day</span> Deluxe Room with premium services 🟢</li>
+                <li><span>₹700/day</span> AC Room with essential comforts 🟢</li>
+            </ul>
+        </div>
+        <button class="book-btn">Book Now</button>
+    </div>
+</body>
+</html>
